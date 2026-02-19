@@ -4,18 +4,18 @@ AquaRead is an Automatic Meter Reading (AMR) system designed to read analog wate
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Manual water meter reading is prone to human error, inconsistencies, and operational costs. AquaRead addresses these issues by applying deep learning-based image processing techniques to automatically interpret analog water meter readings captured in real-world environments.
 
 The system is designed in a modular architecture, allowing each component to be developed, evaluated, and improved independently.
-## 🖼️ System Architecture Diagram
+##  System Architecture Diagram
 
 ![AquaRead System Architecture](system_architecture.png)
 
 ---
 
-## 🧠 System Pipeline (End-to-End)
+##  System Pipeline (End-to-End)
 
 The AquaRead system operates through the following pipeline:
 
@@ -38,7 +38,7 @@ The AquaRead system operates through the following pipeline:
 
 ---
 
-## 🧩 Module Description
+##  Module Description
 
 ### 1) YOLO-based ROI Detection
 A YOLOv8-based object detection model is used to identify relevant regions on the water meter face, enabling robust localization under varying lighting and background conditions.
@@ -54,7 +54,7 @@ A rule-based validation mechanism combines digital and analog outputs, correctin
 
 ---
 
-## 🖥️ System Implementation
+##  System Implementation
 
 - **Backend:** Python, Django
 - **AI Models:** YOLOv8, CNN, Regression-based models
@@ -64,13 +64,13 @@ A rule-based validation mechanism combines digital and analog outputs, correctin
 
 ---
 
-## 📊 Experimental Results
+##  Experimental Results
 
 Experimental evaluations demonstrate that the AquaRead system can accurately read analog water meters under real-world conditions. The system shows robustness against moderate variations in lighting, orientation, and meter design. Detailed quantitative results and evaluation metrics are provided in the accompanying thesis document.
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - The system has been trained and evaluated on a limited variety of water meter designs.
 - Performance may degrade when applied to meter types with significantly different layouts or pointer configurations.
@@ -78,7 +78,7 @@ Experimental evaluations demonstrate that the AquaRead system can accurately rea
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 - Expand the training dataset to include a wider range of meter types and manufacturers.
 - Improve robustness under challenging environmental conditions.
@@ -87,5 +87,5 @@ Experimental evaluations demonstrate that the AquaRead system can accurately rea
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
