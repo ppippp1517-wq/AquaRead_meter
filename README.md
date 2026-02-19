@@ -9,6 +9,9 @@ AquaRead is an Automatic Meter Reading (AMR) system designed to read analog wate
 Manual water meter reading is prone to human error, inconsistencies, and operational costs. AquaRead addresses these issues by applying deep learning-based image processing techniques to automatically interpret analog water meter readings captured in real-world environments.
 
 The system is designed in a modular architecture, allowing each component to be developed, evaluated, and improved independently.
+## 🖼️ System Architecture Diagram
+
+![AquaRead System Architecture](system_architecture.png)
 
 ---
 
