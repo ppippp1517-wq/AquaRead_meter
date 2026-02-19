@@ -92,40 +92,42 @@ Experimental evaluations demonstrate that the AquaRead system can accurately rea
 
 ## Repository Structure
 
-```
+
 AquaRead_meter/
 │
 ├── README.md
 ├── requirements.txt
 ├── system_architecture.png
 │
-├── watermeter_project/              # Main Django project configuration
-│   ├── settings.py                  # Project settings
-│   ├── urls.py                      # Root URL configuration
-│   └── ...
+├── watermeter_project/ # Main Django project configuration
+│ ├── settings.py # Project settings
+│ ├── urls.py # Root URL configuration
+│ └── ...
 │
-├── water_meter_alignment/           # Image alignment and preprocessing module
+├── water_meter_alignment/ # Image alignment and preprocessing module
 │
 └── watermeter_project/meter_reader/ # Core application module
-    │
-    ├── views.py                     # Main system pipeline logic
-    ├── models.py                    # Database models
-    ├── urls.py                      # Application-level routing
-    ├── camera.py                    # Image acquisition handling
-    ├── utils.py                     # Utility and helper functions
-    │
-    ├── needle1.py                   # Analog pointer estimation logic
-    ├── modelneedle.h5               # Trained pointer regression model
-    │
-    ├── templates/                   # HTML templates (frontend UI)
-    ├── static/                      # CSS, JavaScript, and static assets
-    ├── migrations/                  # Django migration files
-    │
-    ├── admin.py
-    ├── apps.py
-    ├── tests.py
-    └── __init__.py
-```
+│
+├── views.py # Main system pipeline logic
+├── models.py # Database models
+├── urls.py # Application-level routing
+├── camera.py # Image acquisition handling
+├── utils.py # Utility and helper functions
+│
+├── needle1.py # Analog pointer estimation logic
+├── modelneedle.h5 # Trained pointer regression model
+│
+├── templates/ # HTML templates (frontend UI)
+├── static/ # CSS, JavaScript, and static assets
+├── migrations/ # Django migration files
+│
+├── admin.py
+├── apps.py
+├── tests.py
+└── init.py
+
+
+
 
 ---
 
